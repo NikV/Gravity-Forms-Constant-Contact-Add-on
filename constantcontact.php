@@ -401,7 +401,7 @@ EOD;
 
             <?php self::ctct_logo(); ?>
 
-            <h2><?php _e("Constant Contact Feeds", "gravity-forms-constant-contact") ?> <a class="button add-new-h2" href="admin.php?page=gf_constantcontact&amp;view=edit&amp;id=0"><?php _e("Add New", "gravity-forms-constant-contact") ?></a></h2>
+            <h1><?php _e("Constant Contact Feeds", "gravity-forms-constant-contact") ?> <a class="page-title-action" href="admin.php?page=gf_constantcontact&amp;view=edit&amp;id=0"><?php _e("Add New", "gravity-forms-constant-contact") ?></a></h1>
 
 			<ul class="subsubsub">
 	            <li><a href="<?php echo admin_url('admin.php?page=gf_settings&amp;addon=Constant+Contact'); ?>"><?php _e('Constant Contact Settings', 'gravity-forms-constant-contact'); ?></a> |</li>
