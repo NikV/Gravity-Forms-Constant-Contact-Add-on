@@ -646,7 +646,7 @@ EOD;
             if($is_valid){
                 $id = GFConstantContactData::update_feed($id, $config["form_id"], $config["is_active"], $config["meta"]);
                 ?>
-                <div class="updated fade" style="padding:6px"><?php echo sprintf(__("Feed Updated. %sback to list%s", "gravity-forms-constant-contact"), "<a href='?page=gf_constantcontact'>", "</a>") ?></div>
+                <div class="updated fade" style="padding:6px"><?php echo sprintf(__("Feed Updated. %sBack to list%s", "gravity-forms-constant-contact"), "<a href='?page=gf_constantcontact'>", "</a>") ?></div>
                 <input type="hidden" name="constantcontact_setting_id" value="<?php echo $id ?>"/>
                 <?php
             }
