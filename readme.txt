@@ -55,6 +55,12 @@ To disable this feature, add this code to your theme's `functions.php` file:
 add_filter('gravityforms_constant_contact_add_notes_to_entries', '__return_false');
 `
 
+= How do I setup Welcome Emails after a user signs up? =
+
+Constant Contact will actually take care of this for you! Learn more at http://support2.constantcontact.com/articles/FAQ/1660.
+
+Also, if you'd like to go the extra mile to setup custom messages and custom page redirects after someone submit a Constant Contact Gravity Form, make sure to take a look over this https://www.gravityhelp.com/documentation/article/configuring-confirmations-in-gravity-forms/.
+
 
 == Screenshots ==
 
