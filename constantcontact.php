@@ -474,7 +474,7 @@ EOD;
                                             </span>
 
                                             <span class="edit">
-                                            <a title="<?php _e("Delete", "gravity-forms-constant-contact") ?>" href="javascript: if(confirm('<?php _e("Delete this feed? ", "gravity-forms-constant-contact") ?> <?php _e("\'Cancel\' to stop, \'OK\' to delete.", "gravity-forms-constant-contact") ?>')){ DeleteSetting(<?php echo $setting["id"] ?>);}"><?php _e("Delete", "gravity-forms-constant-contact")?></a>
+                                            <a style="color:red" title="<?php _e("Delete", "gravity-forms-constant-contact") ?>" href="javascript: if(confirm('<?php _e("Delete this feed? ", "gravity-forms-constant-contact") ?> <?php _e("\'Cancel\' to stop, \'OK\' to delete.", "gravity-forms-constant-contact") ?>')){ DeleteSetting(<?php echo $setting["id"] ?>);}"><?php _e("Delete", "gravity-forms-constant-contact")?></a>
 
                                             </span>
                                         </div>
